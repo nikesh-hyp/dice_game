@@ -7,7 +7,7 @@ def turn():
     print("Type \"r\" to roll")
     des = input(":")
     if des == "r":
-        rand = random.randrange(1, 7)
+        rand = random.randrange(1, 7)           #Random generator
         print("You rolled : ", rand, "\n")
         return rand
 
